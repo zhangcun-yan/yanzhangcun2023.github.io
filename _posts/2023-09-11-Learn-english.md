@@ -29,10 +29,11 @@ tags:
 
 
 #### Speaking Skill
-
+** there some suggestion for the teacher **
+* step 1. Vowels chart
+* step 2. Everyday 15 minutes, Reading out loud, Choose an article form your field, check email for link, listen for tip. # nd = consonant cluster
+* step 3. Movies ,watch -no subtitles, when pronunciation use subtitles.[1.hum 2-3times,2.review;3.say it with words;4. clear speech]
 * 
-*
-*
 
 #### Reading Skill
 
