@@ -41,3 +41,9 @@ tags:
 *
 *
 
+
+#### Writing Skill
+
+* [Grammer check software:editor](https://instatext.io/editor/?v2=1&u=695897452280&t=c) 
+* [Grammer check software:Deep translate](https://www.deepl.com/translator)
+*
