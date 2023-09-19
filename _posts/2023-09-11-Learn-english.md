@@ -18,7 +18,7 @@ tags:
 **Key Feature**：Some material about listening in the Yotube.
 * [Story In English](https://www.youtube.com/@WooEnglish)
 * [CBC Channel](https://zhuanlan.zhihu.com/p/334902659)
-
+* [TED-The clues to a great story](https://www.youtube.com/watch?v=KxDwieKpawg)
 
 #### Speaking Skill
 ** there some suggestion for the teacher **
