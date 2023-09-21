@@ -47,7 +47,7 @@ tags:
 
 #### New word
 
-* [Scientific Writing Made Easy:](yanzhangcun.github.io/files/ebooks/Template_Vocabulary.pdf)
+* [New-word-list:](https://yanzhangcun.github.io/files/ebooks/Template_Vocabulary.pdf)
 
 
 
