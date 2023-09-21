@@ -46,4 +46,6 @@ tags:
 * [How to write a science paper:](https://www.youtube.com/watch?v=Vky9PDKx5KU)
 
 #### New word
-* [word list:]()
+* [Scientific Writing Made Easy:](http://yanzhangcun.github.io/files/ebooks/Template - Vocabulary.pdf)
+
+
