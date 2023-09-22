@@ -25,16 +25,7 @@ tags:
 * step 1. Vowels chart
 * step 2. Everyday 15 minutes, Reading out loud, Choose an article form your field, check email for link, listen for tip. # nd = consonant cluster
 * step 3. Movies ,watch -no subtitles, when pronunciation use subtitles.[1.hum 2-3times,2.review;3.say it with words;4. clear speech]
-* 
-
 *[practice material-traffic topic](https://www.brookings.edu/articles/traffic-why-its-getting-worse-what-government-can-do/#intro)
-
-
-#### Reading Skill
-
-* 
-*
-*
 
 #### Writing Skill
 1. Tools
@@ -49,5 +40,7 @@ tags:
 
 * [New-word-list:](https://yanzhangcun.github.io/files/ebooks/Template_Vocabulary.pdf)
 
-
-
+#### Grammar
+*[Advanced Grammar in Use with Answers A Self Study Reference and Practice Book for Advanced Learners of English by Martin Hewings](https://drive.google.com/file/d/13Hjl34S7GMGVWc0tUDYt5_ip7xsWENuR/view?usp=drive_link)
+*[English Grammar in Use by Raymond Murphy](https://drive.google.com/file/d/1-A-_I7Tj6P1rC8kPlAYyiD0VXqndhJtu/view?usp=drive_link)
+*[Essential-Grammar-in-Use-with-Answers-Raymond-Murphy](https://drive.google.com/file/d/1oIec3ajHQN2G-1C-sAkKidL5XrYwiUDL/view?usp=drive_link)
