@@ -4,7 +4,7 @@ title:      How to improve your English
 subtitle:   some way for imporving english
 date:       2023-09-12
 author:     zhangcun yan
-header-img: img/post-bg-balloons.jpg
+header-img: img/post-bg-debug.png
 catalog:    false
 tags:
     - News
