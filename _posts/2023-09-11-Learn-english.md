@@ -10,7 +10,7 @@ tags:
     - News
 ---
 
-![]({{site.baseurl}}/img/logo.png)
+![]({{site.baseurl}})
 
 #### Listening Skill
 
