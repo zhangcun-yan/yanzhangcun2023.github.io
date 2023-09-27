@@ -38,7 +38,7 @@ tags:
 
 #### New word
 
-* [New-word-list:](https://yanzhangcun.github.io/files/ebooks/english-new-words2.pdf)
+* [New-word-list:](https://yanzhangcun.github.io/files/ebooks/New_words_in_last_week2.pdf)
 
 #### Grammar
 *[Advanced Grammar in Use with Answers A Self Study Reference and Practice Book for Advanced Learners of English by Martin Hewings](https://drive.google.com/file/d/13Hjl34S7GMGVWc0tUDYt5_ip7xsWENuR/view?usp=drive_link)
