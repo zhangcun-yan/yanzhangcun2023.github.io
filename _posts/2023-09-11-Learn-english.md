@@ -10,8 +10,6 @@ tags:
     - News
 ---
 
-![]({{site.baseurl}}/img/logo.png)
-
 #### Listening Skill
 
 **Key Feature**: Some material about listening in the Yotube.
