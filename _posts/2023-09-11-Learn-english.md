@@ -21,12 +21,12 @@ tags:
 
 #### Speaking Skill
 1.**Clear speak**
-    * [clear speak video](https://www.youtube.com/watch?v=JKIu2R-O2rQ)
-    * [clear speak book](http://biblioteca.univalle.edu.ni/files/original/df429f13276f7201f0e30c2746366d030dcd266a.pdf)
-    * [practice material-traffic topic](https://www.brookings.edu/articles/traffic-why-its-getting-worse-what-government-can-do/#intro)
+    * [clear speak video](https://www.youtube.com/watch?v=JKIu2R-O2rQ).
+    * [clear speak book](http://biblioteca.univalle.edu.ni/files/original/df429f13276f7201f0e30c2746366d030dcd266a.pdf).
+    * [practice material-traffic topic](https://www.brookings.edu/articles/traffic-why-its-getting-worse-what-government-can-do/#intro).
 2.**Fellow video**
-    *[steve job's speech at Stanford](https://www.youtube.com/watch?v=1i9kcBHX2Nw)
-    *[steve job's speech at stanford2](https://www.youtube.com/watch?v=Tuw8hxrFBH8&t=25s)
+    *[steve job's speech at Stanford](https://www.youtube.com/watch?v=1i9kcBHX2Nw).
+    *[steve job's speech at stanford2](https://www.youtube.com/watch?v=Tuw8hxrFBH8&t=25s).
     
 3.**There some suggestion for the teacher** 
   * step 1. Vowels chart;
