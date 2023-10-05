@@ -47,7 +47,7 @@ tags:
 
 #### New word
 
-* [New-word-list:](https://yanzhangcun.github.io/files/ebooks/New_words_in_last_week2.pdf)
+* [New-word-list:](https://yanzhangcun.github.io/files/ebooks/Newwords.pdf)
 
 
 #### Grammar
