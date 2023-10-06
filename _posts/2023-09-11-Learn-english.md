@@ -45,6 +45,9 @@ tags:
 2. **Teaching**
    * [Scientific Writing Made Easy:](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1258)
    * [How to write a science paper:](https://www.youtube.com/watch?v=Vky9PDKx5KU)
+  
+3.**Parctices**
+    *[Topic of Everyday Heroes](https://yanzhangcun.github.io/files/Writing_about_everyday_heroes_Zhangcun-Yan.pdf)
 
 #### New word
 
