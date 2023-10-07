@@ -49,8 +49,8 @@ tags:
    * [Topic of Everyday Heroes](https://yanzhangcun.github.io/files/Writing_about_everyday_heroes_Zhangcun-Yan.pdf)
 
 #### New word
-
-* [New-word-list:](https://yanzhangcun.github.io/files/ebooks/Newwords.pdf)
+1. **Vocariabloty**
+    * [New-word-list:](https://yanzhangcun.github.io/files/ebooks/Newwords.pdf)
 
 
 #### Grammar
