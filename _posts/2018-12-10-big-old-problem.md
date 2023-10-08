@@ -9,10 +9,9 @@ catalog: false
 tags:
     - Open dataset
 ---
-
-<ur> 
-
-<li> Climate data:<a href="https://climexp.knmi.nl/start.cgi?id=51e9b9c2ffa5bf2a83a469eba86afa0f"> Climate Explorer</a>  </li>
-
     
-</ur>
+**Climate dataset**
+    [Climate data](https://climexp.knmi.nl/start.cgi?id=51e9b9c2ffa5bf2a83a469eba86afa0f)
+
+**American Government Open data**
+    [Traffic data of America](https://catalog.data.gov/dataset)
