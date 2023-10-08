@@ -15,8 +15,7 @@ tags:
 该包括主要包含数据、运维、法律和评论等主题。
 
 #### 数据相关
-  * [Story In English](https://www.youtube.com/@WooEnglish)
-  * [CBC Channel](https://zhuanlan.zhihu.com/p/334902659)
+
 1. **数据集**
   * [华盛顿特区的公共自行车](https://bikesharemap.com/newyork/#/10.7989835523655/-73.986/40.7525/)
   * [佛罗里达州公共自行车](https://www.citibikemiami.com/#stationmap)
