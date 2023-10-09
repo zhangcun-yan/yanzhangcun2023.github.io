@@ -72,6 +72,5 @@ tags:
 
 2. **Good Book**
     - 
-
 3. **Practices**
     * 
