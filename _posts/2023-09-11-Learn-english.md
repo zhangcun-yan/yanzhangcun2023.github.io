@@ -68,9 +68,8 @@ tags:
 
 #### Reading Skill
 1. **Vocabulary**
-    - [New-word-list:](https://yanzhangcun.github.io/files/ebooks/English/New_words.pdf)
-
+   * [New-word-list:](https://yanzhangcun.github.io/files/ebooks/English/New_words.pdf)
 2. **Good Book**
-    - 
+   * []()
 3. **Practices**
-    * 
+   * []() 
