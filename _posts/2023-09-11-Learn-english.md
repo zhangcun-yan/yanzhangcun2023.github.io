@@ -64,7 +64,7 @@ tags:
    * [English Grammar in Use by Raymond Murphy](https://drive.google.com/file/d/1-A-_I7Tj6P1rC8kPlAYyiD0VXqndhJtu/view?usp=drive_link)
    * [Essential-Grammar-in-Use-with-Answers-Raymond-Murphy](https://drive.google.com/file/d/1oIec3ajHQN2G-1C-sAkKidL5XrYwiUDL/view?usp=drive_link)
 4. **Practices**
-   * [Topic of Everyday Heroes](https://yanzhangcun.github.io/files/Writing_about_everyday_heroes_Zhangcun-Yan.pdf)
+   * [Topic of Everyday Heroes](https://yanzhangcun.github.io/files/English/Writing_about_everyday_heroes_Zhangcun-Yan.pdf)
 
 #### Reading Skill
 1. **Vocabulary**
