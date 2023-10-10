@@ -46,18 +46,18 @@ tags:
 
 4. **Many question about Pronunciation** 
 
-    [How to count syllables?](https://yanzhangcun.github.io/files/ebooks/English/English-class-syllables.pdf)
+    * [How to count syllables?](https://yanzhangcun.github.io/files/ebooks/English/English-class-syllables.pdf)
 
 
 #### Writing Skill
 1. **Tools**
-   - [Grammer check software:editor](https://instatext.io/editor/?v2=1&u=695897452280&t=c) 
-   - [Grammer check software:Deep translate](https://www.deepl.com/translator)
-   - [Grammer](https://www.englishgrammar101.com/).
+   * [Grammer check software:editor](https://instatext.io/editor/?v2=1&u=695897452280&t=c) 
+   * [Grammer check software:Deep translate](https://www.deepl.com/translator)
+   * [Grammer](https://www.englishgrammar101.com/).
 
 2. **Teaching**
-   - [Scientific Writing Made Easy](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1258)
-   - [How to write a science paper](https://www.youtube.com/watch?v=Vky9PDKx5KU) 
+   * [Scientific Writing Made Easy](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1258)
+   * [How to write a science paper](https://www.youtube.com/watch?v=Vky9PDKx5KU) 
 
 3. **Grammar book**
    * [Advanced Grammar in Use with Answers](https://drive.google.com/file/d/13Hjl34S7GMGVWc0tUDYt5_ip7xsWENuR/view?usp=drive_link)
