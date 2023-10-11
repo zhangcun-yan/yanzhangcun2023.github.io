@@ -46,7 +46,7 @@ tags:
 
 4. **Many question about Pronunciation** 
 
-    * [How to count syllables?](https://yanzhangcun.github.io/files/ebooks/English/English-class-syllables.pdf)
+    * [How to count syllables?](https://yanzhangcun.github.io/files/English/English-class-syllables.pdf)
 
 
 #### Writing Skill
