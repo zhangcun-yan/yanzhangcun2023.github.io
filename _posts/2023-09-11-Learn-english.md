@@ -36,6 +36,7 @@ tags:
 2. **Fellow video**
     * [steve job's speech at Stanford](https://www.youtube.com/watch?v=1i9kcBHX2Nw).
     * [steve job's speech at stanford2](https://www.youtube.com/watch?v=Tuw8hxrFBH8&t=25s).
+    * [Obama education speech](https://www.youtube.com/watch?v=5a5VSkkdpB4).
     * [clear speech](https://www.youtube.com/watch?v=72-ARzL_ljs).
 
 3. **There some suggestion from Cherry** 
