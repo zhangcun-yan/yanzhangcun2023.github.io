@@ -33,6 +33,7 @@ tags:
     * [clear speech support resources](https://www.cambridge.org/ca/cambridgeenglish/catalog/english-academic-purposes/clear-speech-4th-edition/resources).
     * [practice material-traffic topic](https://www.brookings.edu/articles/traffic-why-its-getting-worse-what-government-can-do/#intro).
     * [English Pronunciation Exercises](https://engfluent.com/english-pronunciation-exercises/#mainsounds)
+    * [B station video](https://www.bilibili.com/video/BV1n54y1B7bE/?spm_id_from=333.337.search-card.all.click&vd_source=eadde1477a58ba202d5070a8f223d4d4).
 
 2. **Fellow video**
     * [steve job's speech at Stanford](https://www.youtube.com/watch?v=1i9kcBHX2Nw).
