@@ -32,6 +32,7 @@ tags:
     * [clear speak book](http://biblioteca.univalle.edu.ni/files/original/df429f13276f7201f0e30c2746366d030dcd266a.pdf).
     * [clear speech support resources](https://www.cambridge.org/ca/cambridgeenglish/catalog/english-academic-purposes/clear-speech-4th-edition/resources).
     * [practice material-traffic topic](https://www.brookings.edu/articles/traffic-why-its-getting-worse-what-government-can-do/#intro).
+    * [English Pronunciation Exercises](https://engfluent.com/english-pronunciation-exercises/#mainsounds)
 
 2. **Fellow video**
     * [steve job's speech at Stanford](https://www.youtube.com/watch?v=1i9kcBHX2Nw).
