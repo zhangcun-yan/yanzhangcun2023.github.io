@@ -19,7 +19,7 @@ The implementation of computer vision algorithms has being bombed by the breakth
 | <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/changjidong-moyu.jpg" alt="changjidong-moyu" style="zoom:13%;" /> | <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/Figure_sharing space in intersection.jpg" alt="Figure_sharing space in intersection" style="zoom:13%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                       a). Moyu-changji                       |                      Longchang-jiyanglu                      |
-| <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/Jianhe-xianxia road.png" alt="Jianhe-xianxia road" style="zoom:13%;" /> | <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/WN_intersection.png" alt="WN_intersection" style="zoom:13%;" /> |
+| <img src="img-post/interaction-behavior-modeling/summary/Jianhe-xianxia road.png" alt="Jianhe-xianxia road" style="zoom:13%;" /> | <img src="/img-post/interaction-behavior-modeling/summary/WN_intersection.png" alt="WN_intersection" style="zoom:13%;" /> |
 |                        jianhe-xianxia                        |                        Ningwu-Hejian                         |
 
 ​	**Figure.1. The methodology of estimating the real world coordinator**
