@@ -15,7 +15,6 @@ tags:
 ## causal discovery ##
 
 Most famous open project about causal discovery on Github is Gcaste which from [huawei-noah](https://github.com/huawei-noah). In addition，other project about this topic is listed as fellow：
-
 [trustworthyAI](https://github.com/huawei-noah/trustworthyAI)
 [PC-Algorithm](https://github.com/liuqidong07/PC-Algorithm)
 [Causal-inference-in-python](https://github.com/PacktPublishing/Causal-Inference-and-Discovery-in-Python)
