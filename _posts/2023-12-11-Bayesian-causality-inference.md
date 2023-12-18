@@ -1,0 +1,70 @@
+---
+layout:     post
+title:      Dynamic Bayesian Network
+subtitle:   Summary of causality discovery and inference
+date:       2023-11-11
+author:     zhangcun yan
+header-img: img/home-bg-o.jpg
+catalog:    summmary
+tags:
+    - summary of knowledge
+---
+
+#### Listening Skill
+
+## The fundamental knowledge of Dynamic Bayesian Network, in this blog, the author introduced the fundamental nation of the  **Bayesian theory**.
+
+1. [**Bayesian Theory**]: https://longaspire.github.io/blog/%E5%8A%A8%E6%80%81%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%BD%91%E7%BB%9C%E8%BF%9B%E9%98%B6/#2-1-%E8%BF%9E%E6%8E%A5%E5%85%88%E9%AA%8C%E5%92%8C%E8%BD%AC%E7%A7%BB%E7%BD%91%E7%BB%9C	"动态贝叶斯网络进阶：推断和学习"
+   [Dynamic Bayesian networks - an introduction]: https://www.bayesserver.com/docs/introduction/dynamic-bayesian-networks/#hybrid-inference	"A python tutorial for Dynamic Bayesian network"
+   [Time Series Parameter learning in Python]: https://www.bayesserver.com/code/python/parameter-learning-dbn-py/	"Python 中进行时间序列分析"
+   [Application of dynamic Bayesian]: https://www.mlsptlab-unicampania.it/research/topics/path-modeling.html	"意大利实验室"
+   [implementation of dynamic Bayesian in python]: https://app.gitter.im/#/room/#pgmpy_pgmpy:gitter.im
+   [Implementation of dynamic Bayesian in MATLAB ]: https://www.cs.ubc.ca/~murphyk/Software/BDAGL/dbnDemo_hmm.htm#4
+   [A Python library for amortized Bayesian workflows using generative neural networks]: https://github.com/stefanradev93/BayesFlow
+   [BayesFlow]: https://bayesflow.org/
+   [Markov Network]: https://pyagrum.readthedocs.io/en/0.19.0/markovNetwork.html
+   [Software by Kevin Murphy and students]: https://www.cs.ubc.ca/~murphyk/Software/index.html
+   [The Power of Bayesian Causal Inference: A Comparative Analysis of Libraries to Reveal Hidden Causality in Your Dataset.](https://towardsdatascience.com/the-power-of-bayesian-causal-inference-a-comparative-analysis-of-libraries-to-reveal-hidden-d91e8306e25e)
+   [A Step-by-Step Guide in detecting causal relationships using Bayesian Structure Learning in Python](https://towardsdatascience.com/a-step-by-step-guide-in-detecting-causal-relationships-using-bayesian-structure-learning-in-python-c20c6b31cee5)
+
+2. [ Causality inference]: https://zhuanlan.zhihu.com/p/397796913	"大白话谈因果系列文章（一）：因果推断简介及论文介绍"
+   [Causal inference]: https://blog.csdn.net/s1164548515/article/details/109635808	"因果推断英文书单整理及简介"
+   [Causal Inference & Machine Learning]: https://www.zhihu.com/column/c_1425471894778286080	"Causal inference in 知乎"
+   [Causal Inference for the Brave and True]: https://matheusfacure.github.io/python-causality-handbook/01-Introduction-To-Causality.html	"A book of introduction causal inference"
+   [Causal inference in csdn]: https://so.csdn.net/so/search?spm=1000.2115.3001.4498&amp;q=%E5%8A%A8%E6%80%81%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%BD%91%E7%BB%9C&amp;t=&amp;u=
+   [Causality inference Book summary]: https://hub.baai.ac.cn/view/10851	"因果推断书籍代码合集"
+   [Causal Inference in Python]: https://causalinferenceinpython.org/index.html#minimal-example
+   [Causal Inference: What If (the book)]: https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/	"Miguel Hernan&#39;s Faculty Website"
+   [Causal inference resource(useful)]:https://causalpython.io/#holiday-resources,”Causality inference”
+   [Github resources](https://github.com/msuzen/looper/blob/master/looper.md)
+   [A tutorial of causal inference in python]: https://causalnex.readthedocs.io/en/latest/03_tutorial/01_first_tutorial.html	"A first CausalNex tutorial"
+
+3. [Dynamic Bayesian Network PPT]: https://slideplayer.com/slide/13536477/
+   [Dynamic Bayesian Network (DBN)]: https://pgmpy.org/models/dbn.html#
+   [learning the structure of Dynamic Bayesian Network]: https://quantumblack.medium.com/dynotears-learning-the-structure-of-dynamic-bayesian-networks-af570f910d9
+   [DYNOTEARS: Structure Learning from Time-Series Data]: https://proceedings.mlr.press/v108/pamfil20a.html
+   [Pgmpy]: https://pgmpy.org/detailed_notebooks/4.%20Markov%20Models.html	"Best library of Bayesian "
+   [Introduction to pyAgrum](https://pyagrum.readthedocs.io/en/latest/)
+   [Causalnex](https://causalnex.readthedocs.io/en/latest/03_tutorial/05_latent_variable_tutorial.html)
+   [dynamic Bayesian networks](https://pyagrum.readthedocs.io/en/1.3.1/notebooks/22-Models_dynamicBn.html)
+   
+4. [Bayesian Networks Explained With Examples]: https://www.edureka.co/blog/bayesian-networks/
+   [Bayesian inference problem, MCMC and variational inference]: https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29
+   [R数据分析：网络分析的做法，原理和复现方法](https://zhuanlan.zhihu.com/p/581641222)
+   [交通环境行为预测]: https://blog.csdn.net/qq_39032096/article/details/125881733	"predicted trajectory"
+   [交互行为]: https://posts.careerengine.us/p/631d6384c9dda25cb34f2b4a?nav=post_hottest&amp;p=62e60135cd90a8726e72eb2d
+   [自动驾驶长期车辆轨迹预测的概率架构]: https://www.x-mol.com/paper/1505595003876786176/t
+   [EconML: A Python Package for ML-Based Heterogeneous Treatment Effects Estimation]：https://github.com/py-why/EconML
+   [econml’s documentation]：https://econml.azurewebsites.net/
+   [Dowhy]:https://www.pywhy.org/dowhy/v0.8/example_notebooks/dowhy_simple_example.html#Interface-1-(recommended):-Input-causal-graph
+   [Causalify discovery]:https://github.com/FenTechSolutions/CausalDiscoveryToolbox/blob/master/examples/example_cgnn.ipynb
+
+5. Peak theory
+   [Peak theory](https://lbelzile.github.io/mevtuto/index.html)
+   [Peak theory in matlab](https://www.mathworks.com/help/stats/modelling-data-with-the-generalized-extreme-value-distribution.html)
+
+6.Probability theory- distribution 
+   [Weibull distribution](https://www.kaggle.com/code/harshaggarwal7/wind-analysis-weibull/notebook)
+
+7.Data science
+  [🔥📊💲 Store Sales EDA, Prediction with TS 🔥🎯]:https://www.kaggle.com/code/kalilurrahman/store-sales-eda-prediction-with-ts
