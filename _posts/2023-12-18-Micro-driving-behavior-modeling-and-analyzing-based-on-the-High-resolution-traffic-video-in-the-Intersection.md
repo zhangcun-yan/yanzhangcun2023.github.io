@@ -4,54 +4,52 @@ title:      Micro-driving behavior modeling
 subtitle:   summary
 date:       2023-12-18
 author:     Zhangcun Yan
-header-img: img-post/interaction-behavior-modeling/summary/causal_discovery.png
+header-img: img-post/interaction/causal_discovery.png
 catalog: true
 tags:
     - Research Notebook
 ---
 
-#### Micro-driving behavior modeling and analyzing based on the High-resolution traffic video in the Intersection
+## Micro-driving behavior modeling and analyzing based on the High-resolution traffic video in the Intersection
 
 The implementation of computer vision algorithms has being bombed by the breakthroughs in computing power especially in the intelligent transportation systems. But there some ramparts between computer vision algorithm and traditionally traffic theory. Here, I want to show whole procedures for Modeling the interaction behavior between motorized and Non-Motorized  vehicles based the High-resolution traffic video from roadside view. To summarize those procedures and provide cleaning tutorials for the ordinal student, Some of the details background information was omitted and just saved the main steps. 
 
+### Record video
 **First**, we should prepare the basic information of object scenarios that contains the unobstructed videos, the Geometric size of the object intersection, and the signal plans. These information will help you to convert picture information to real world. For instance, the fellow figures show **the real world coordination system** and the some details about basic information.  You can establish the real world coordinator system basic on geometric information from the high-resolution measures experiment. On the other way, you can get less five marked points of the intersections by the GPS location system app on mobile phones. 
-
-| <img src="img-post/interaction-behavior-modeling/summary/changjidong-moyu.jpg" alt="changjidong-moyu" style="zoom:13%;" /> | <img src="img-post/interaction-behavior-modeling/summary/Figure_sharing space in intersection.jpg" alt="Figure_sharing space in intersection" style="zoom:13%;" /> |
+<br>
+| <img src="img-post/interaction/changjidong-moyu.jpg" alt="changjidong-moyu" style="zoom:13%;" /> | <img src="img-post/interaction/Figure_sharing space in intersection.jpg" alt="Figure_sharing space in intersection" style="zoom:13%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                       a). Moyu-changji                       |                      Longchang-jiyanglu                      |
-| <img src="img-post/interaction-behavior-modeling/summary/Jianhe-xianxia road.png" alt="Jianhe-xianxia road" style="zoom:13%;" /> | <img src="/img-post/interaction-behavior-modeling/summary/WN_intersection.png" alt="WN_intersection" style="zoom:13%;" /> |
+| <img src="img-post/interaction/Jianhe-xianxia road.png" alt="Jianhe-xianxia road" style="zoom:13%;" /> | <img src="img-post/interaction/WN_intersection.png" alt="WN_intersection" style="zoom:13%;" /> |
 |                        jianhe-xianxia                        |                        Ningwu-Hejian                         |
 
 ​	**Figure.1. The methodology of estimating the real world coordinator**
 
 **Second**, Make the datasets and train the detection model, you should label the object which you chosen based on your research topic(such as: Car, Bus, truck, Fright, president, electrical bicycles and bicycles so on!) in you video. Some software can help you finish this task effectively. such as, [ImageLabel](https://create.roblox.com/docs/reference/engine/classes/ImageLabel). And then, chose suite computer vision algorithm as the detection model, Here, I introduce **Yolov8** algorithm.
-
+<br>
 <img src="E:\Academic\project\Drivingbehaviormoding\study procedure\Figure\trajectory tracker.jpg" alt="trajectory tracker " style="zoom:70%;" />
 
 ​                             **Figure.2. The framework of object detection and trajectory tracking**
 
 **Third**, Detection the object and Tracking the Trajectories. Now, we can connect the detection model with tracking model. The better tracking model is the evolution of Deepsort algorithm which is employed in our framework. 
-
-| <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/Object_detection.jpg" alt="Object_detection" style="zoom:10%;" /> | <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/轨迹追踪.png" alt="轨迹追踪" style="zoom:40%;" /> |
+<br>
+| <img src="img-post/interaction/Object_detection.jpg" alt="Object_detection" style="zoom:10%;" /> | <img src="img-post/interaction/轨迹追踪.png" alt="轨迹追踪" style="zoom:40%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                       Object detection                       |                     trajectory tracking                      |
 
 ​                                        **Figure 3. The processor of detecting objects and tracking trajectories ** 
-
+<br>
 **Fourth**, Reconstruction of the orginal trajectories. Due to the orginal trajectory is saving in different formats, I should be reorganize before next analysis step. There are four procedures should be implemented: reformation, filter and reconstruction. The details of this procedure shown as fellow.
-
-| <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/image-20231212164828225.png" alt="image-20231212164828225" style="zoom:48%;" /> | <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/image-20231212165137586.png" alt="image-20231212165137586" style="zoom:48%;" /> |
+<br>
+| <img src="img-post/interaction/image-20231212164828225.png" alt="image-20231212164828225" style="zoom:48%;" /> | <img src="img-post/interaction/image-20231212165137586.png" alt="image-20231212165137586" style="zoom:48%;" /> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | JH-XX                                                        | MY-CJ                                                        |
-| <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/image-20231212165413946.png" alt="image-20231212165413946" style="zoom:48%;" /> | <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/image-20231212165623939.png" alt="image-20231212165623939" style="zoom:48%;" /> |
+| <img src="img-post/interaction/image-20231212165413946.png" alt="image-20231212165413946" style="zoom:48%;" /> | <img src="img-post/interaction/image-20231212165623939.png" alt="image-20231212165623939" style="zoom:48%;" /> |
 | LC-JY                                                        | NW-HJ                                                        |
 
-
-
-
-
+<br>
 *The code of reformation:*
-
+<br>
 ```python
 # Basic packages 
 import math
@@ -135,7 +133,6 @@ input_path = r'E:/CodeResource/000_Traffic_conflict_risk_analysis/'
 output_path = r'E:/CodeResource/000_Traffic_conflict_risk_analysis/Data_clearning'
 Trajectory_denoise = File_procession(input_path,output_path)
 ```
-
 *The code of denoise, in the first step, we should calculate the variable of the vehicle motion, then denoise the trajectory.*
 
 ```python
@@ -192,7 +189,7 @@ def Angle(trajectorydata):
     Angle_veh = np.array(trajectorydata.Angle)
     return Angle_veh
 ```
-
+<br>
 ```python
 # wavelet algorithm for denoising
 import numpy as np
@@ -313,7 +310,7 @@ def wavelet_reduce_noise(input_data_path,output_data_path):
     Wt.to_csv(output_data_path,index=False, header=True)
     return Wt
 ```
-
+<br>
 ```python
 # processing the file one by one
 def File_procession(Input_file_path,Output_file_path):
@@ -333,7 +330,7 @@ Trajectory_denoise = File_procession(Input_file_path,Output_file_path)
 ```
 
 **Show the result of trajectories, compare the variable related to the speed and the acceleration **
-
+<br>
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -382,7 +379,7 @@ def Compare_montion(Trajectory_No_filter,Trajectory_filter,veh_id):
 ```
 
 Before calculate the conflict risk indictors we split the trajectory into different time pieces with the signal control time for accelerating the speed of calculation.  
-
+<br>
 ```python
 # @ time
 import os
@@ -447,7 +444,7 @@ split_time_path = r"D:\dataset\Intersection\Video_cycle_split"
 Output_file_path = r"D:\dataset\Intersection\Data_processing\Split_with_cycle_time/"
 File_procession(Traj_file_path,Output_file_path,split_time_path)
 ```
-
+<br>
 ```PYTHON
 # @ time
 import os
@@ -523,13 +520,13 @@ split_time_path = r"D:\dataset\Intersection\signal_time_in_video\Video_cycle_spl
 Output_file_path = r"D:\dataset\Intersection\Data_processing\Split_with_cycle_time/"
 File_procession(Traj_file_path, Output_file_path, split_time_path)
 ```
-
+<br>
 More inductor were employed in this research, such as TTC, PET, and  delta V MTTC and so on! The logistic of calculation are two kinds, first one is for by the conflict pairs, other one is by frame.  
-
+<br>
 **Firth, extracting the conflict event chain! **The next step is calculate the indictors of traffic conflicts, such as the TTC, PET, Delta-V and the risk field in the real time data. Here, summary the key step of processing. 
-
+<br>
 The idea of calculating the inductor traffic conflict between different vehicles. 
-
+<br>
 
 
 <img src="E:\CodeResource\000_Traffic_conflict_risk_analysis\Data_clearning\Data_set\conflict_calculate processing.png" alt="conflict_calculate processing" style="zoom:25%;" />
@@ -819,16 +816,16 @@ Trajectory_conflict = File_procession(data_path,output_path,time_gap,Delta,Colum
 
 The flowchart of modeling interaction behavior between Motorized vehicle and Non-Motorized vehicles.
 
-![flowchart](https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/flowchart.png)
+![flowchart](img-post/interaction/flowchart.png)
 
 The distribution of the conflict risk shows as fellow, the data from the Longchang-Ningwu intersections.
 
 ​                    **Figure. 5. The result of the risk inductors calculated from the trajectories**
-
+<br>
 **sixth, Modeling the evolving procession of interaction behavior between the motorized and Non-motorized vehicles.** 
-
+<br>
 a) **The first step is extract the event chain about the course of interacting.**
-
+<br>
 ```python
 import numpy as np
 import pandas as pd
@@ -1019,12 +1016,12 @@ Define the variable of driving_purpose. In this step,  we need match label each 
 
 |                     Direction of Turning                     |                       MY intersection                        |                       JH intersection                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/Direction_of_intersection.jpg" alt="Direction_of_intersection" style="zoom:18%;" /> | <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/MY.png" alt="MY" style="zoom:40%;" /> | <img src="https://yanzhangcun.github.io/files/img-post/interaction-behavior-modeling/summary/myplot.png" alt="myplot" style="zoom:40%;" /> |
-
+| <img src="img-post/interaction/Direction_of_intersection.jpg" alt="Direction_of_intersection" style="zoom:18%;" /> | <img src="img-post/interaction/MY.png" alt="MY" style="zoom:40%;" /> | <img src="img-post/interaction/myplot.png" alt="myplot" style="zoom:40%;" /> |
+<br>
 The logistics of this code is that 
-
+<br>
 First, we should integrate the trajectory by the intersection name.
-
+<br>
 ```python
 # intergate the trajectory together. 
 def File_procession(Input_file_path,Output_file_path):
@@ -1045,7 +1042,7 @@ Output_file_path = r'D:\dataset\Intersection\Data_processing\Mixed_traffic_flow_
 total_data = File_procession(Input_file_path,Output_file_path)
 ```
 
-
+<br>
 
 ```python
 Org_traj = pd.read_csv(orj_traj_data_path)
@@ -1198,7 +1195,7 @@ Define_direction(conf_event_data_path,orj_traj_data_path,direction_devied_path,o
 ```
 
 Calculate the all variables and define. At first, we can connect the dir_signal file with ordinal data.
-
+<br>
 ```python
 import matplotlib.pyplot as plt
 # import seaborn as sns
@@ -1595,11 +1592,11 @@ save_data_path = r"D:\dataset\Intersection\Data_processing\Conflict_event\variab
 # save_data_path = r"Dataset/ordinal_variable/LC_var.csv"
 Define_variabel(con_event_chain_path, org_traj_data_path,save_data_path)
 ```
-
+<br>
 
 
 **c) The  third step model the interaction behavior based on the ordinal logit model and the causality inference model.**
-
+<br>
 
 
 
@@ -1610,10 +1607,11 @@ Define_variabel(con_event_chain_path, org_traj_data_path,save_data_path)
 
 **d) The forth step model the interaction behavior based on the dynamic theory, dynamic Bayesian model and dynamic causality discovery theory.**
 
-
+<br>
 
 
 
 
 
 **e) The finally step build the model deflection the anomaly behavior based the dynamic theory.**
+<br>

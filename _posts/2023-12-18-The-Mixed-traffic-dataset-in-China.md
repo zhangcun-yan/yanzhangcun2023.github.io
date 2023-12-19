@@ -4,7 +4,7 @@ title:      Trajectory dataset of Mixed traffic flow in China
 subtitle:   Dataset
 date:       2023-12-18
 author:      Zhangcun Yan
-header-img: img-post/interaction-behavior-modeling/summary/traj_track.png
+header-img: img-post\interaction/traj_track.png
 catalog: true
 tags:
     - Technology Notebook
