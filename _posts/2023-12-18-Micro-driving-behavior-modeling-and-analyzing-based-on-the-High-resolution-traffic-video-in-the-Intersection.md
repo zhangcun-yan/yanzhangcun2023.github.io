@@ -1006,9 +1006,7 @@ def signial_time_variable(conflict_event, signal_data_path, colum_name3):
                     # print(ttc_event_chain_3)
     return ttc_event_chain_3
 # @ time
-```
 
-```PYTHON
 colum_name3 = ["Video_id",'F_vehicle_id', 'F_frame_time', 'F_vehicle_type', 'F_world_x', 'F_world_y', 'F_speed_x', 'F_speed_y', 'F_acc_x', 'F_acc_y', 'F_Jerk_x', 'F_Jerk_y', 'F_Angle','S_vehicle_id', 'S_vehicle_type', 'S_world_x', 'S_world_y', 'S_speed_x', 'S_speed_y', 'S_acc_x','S_acc_y', 'S_Jerk_x', 'S_Jerk_y', 'S_Angle', 'cross_point_x', 'cross_point_y', 'TTC']
 conflict_event_path = r"D:\dataset\Intersection\Data_processing\Conflict_event\TTC\Total_dataset/MY_conflict.csv"
 conflict_event = pd.read_csv(conflict_event_path)
@@ -1023,12 +1021,8 @@ Define the variable of driving_purpose. In this step,  we need match label each 
 |                     Direction of Turning                     |                       MY intersection                        |                       JH intersection                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="img-post/interaction/Direction_of_intersection.jpg" alt="Direction_of_intersection" style="zoom:18%;" /> | <img src="img-post/interaction/MY.png" alt="MY" style="zoom:40%;" /> | <img src="img-post/interaction/myplot.png" alt="myplot" style="zoom:40%;" /> |
-<br>
-The logistics of this code is that 
-<br>
-First, we should integrate the trajectory by the intersection name.
-<br>
 
+The logistics of this code is that. First, we should integrate the trajectory by the intersection name.
 
 ```python
 # intergate the trajectory together. 
@@ -1050,7 +1044,6 @@ Output_file_path = r'D:\dataset\Intersection\Data_processing\Mixed_traffic_flow_
 total_data = File_procession(Input_file_path,Output_file_path)
 ```
 
-<br>
 
 ```python
 Org_traj = pd.read_csv(orj_traj_data_path)
@@ -1203,7 +1196,8 @@ Define_direction(conf_event_data_path,orj_traj_data_path,direction_devied_path,o
 ```
 
 Calculate the all variables and define. At first, we can connect the dir_signal file with ordinal data.
-<br>
+
+
 ```python
 import matplotlib.pyplot as plt
 # import seaborn as sns
@@ -1211,8 +1205,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import math
 import numpy as np
-
-
 
 def signial_time_variable(conflict_event, signal_data_path):
     "Merage the signal variable with the other variables"
@@ -1265,8 +1257,8 @@ def signial_time_variable(conflict_event, signal_data_path):
     return ttc_event_chain_3
 # @ timeE
 
-
-# colum_name3 = ["Video_id","frame_time","F_vehicle_id","F_type","F_world_x","F_world_y","F_speed_x","F_speed_y","F_speed","F_acc_x","F_acc_y","F_acc","F_dir","S_vehicle_id","S_type","S_dir","S_world_x","S_world_y","S_speed","S_acc","S_jerk","S_Angle","F_to_c","S_to_c","F_to_S","V_F_S","ACC_F_S","Ang_F_S","conflict_x","conflict_y","TTC","intersection_name","area_below_2","F_state_n","F_state_m","S_state_n","S_state_m",'cycle_id','phase','begin_time','end_time','begin_frame_time','end_frame_time','phase_length','over_phase_time']
+# colum_name3 =
+["Video_id","frame_time","F_vehicle_id","F_type","F_world_x","F_world_y","F_speed_x","F_speed_y","F_speed","F_acc_x","F_acc_y","F_acc","F_dir","S_vehicle_id","S_type","S_dir","S_world_x","S_world_y","S_speed","S_acc","S_jerk","S_Angle","F_to_c","S_to_c","F_to_S","V_F_S","ACC_F_S","Ang_F_S","conflict_x","conflict_y","TTC","intersection_name","area_below_2","F_state_n","F_state_m","S_state_n","S_state_m",'cycle_id','phase','begin_time','end_time','begin_frame_time','end_frame_time','phase_length','over_phase_time']
 # colum_name3 = ["Video_id",'F_vehicle_id', 'F_frame_time', 'F_vehicle_type', 'F_world_x', 'F_world_y', 'F_speed_x', 'F_speed_y', 'F_acc_x', 'F_acc_y', 'F_Jerk_x', 'F_Jerk_y', 'F_Angle','S_vehicle_id', 'S_vehicle_type', 'S_world_x', 'S_world_y', 'S_speed_x', 'S_speed_y', 'S_acc_x','S_acc_y', 'S_Jerk_x', 'S_Jerk_y', 'S_Angle', 'cross_point_x', 'cross_point_y', 'TTC','area_below_2']
 conflict_event_path = r"D:\dataset\Intersection\Data_processing\Conflict_event\Conflict_event_chain_by_ttc\Total_dataset/LC_conflict.csv"
 conflict_event = pd.read_csv(conflict_event_path)
