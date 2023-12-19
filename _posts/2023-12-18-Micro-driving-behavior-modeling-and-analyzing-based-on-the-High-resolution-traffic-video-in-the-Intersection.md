@@ -191,7 +191,8 @@ def Angle(trajectorydata):
     Angle_veh = np.array(trajectorydata.Angle)
     return Angle_veh
 ```
-<br>
+
+
 ```python
 # wavelet algorithm for denoising
 import numpy as np
@@ -311,8 +312,7 @@ def wavelet_reduce_noise(input_data_path,output_data_path):
         #     print(Wt.iloc[min_row:max_row+1,[9,10]])
     Wt.to_csv(output_data_path,index=False, header=True)
     return Wt
-```
-<br>
+
 ```python
 # processing the file one by one
 def File_procession(Input_file_path,Output_file_path):
