@@ -4,7 +4,7 @@ title:      Micro-driving behavior modeling
 subtitle:   summary
 date:       2023-12-18
 author:     Zhangcun Yan
-header-img: img-post/interaction/causal_discovery.png
+header-img: img-post/post-bg-github-cup.jpg
 catalog: true
 tags:
     - Research Notebook
