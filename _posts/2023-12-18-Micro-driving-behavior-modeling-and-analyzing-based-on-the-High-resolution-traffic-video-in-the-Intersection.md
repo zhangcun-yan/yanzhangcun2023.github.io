@@ -25,6 +25,7 @@ The implementation of computer vision algorithms has being bombed by the breakth
 
 ​	**Figure.1. The methodology of estimating the real world coordinator**
 
+### object detection and trajectory tracking
 **Second**, Make the datasets and train the detection model, you should label the object which you chosen based on your research topic(such as: Car, Bus, truck, Fright, president, electrical bicycles and bicycles so on!) in you video. Some software can help you finish this task effectively. such as, [ImageLabel](https://create.roblox.com/docs/reference/engine/classes/ImageLabel). And then, chose suite computer vision algorithm as the detection model, Here, I introduce **Yolov8** algorithm.
 <br>
 <img src="E:\Academic\project\Drivingbehaviormoding\study procedure\Figure\trajectory tracker.jpg" alt="trajectory tracker " style="zoom:70%;" />
@@ -33,12 +34,12 @@ The implementation of computer vision algorithms has being bombed by the breakth
 
 **Third**, Detection the object and Tracking the Trajectories. Now, we can connect the detection model with tracking model. The better tracking model is the evolution of Deepsort algorithm which is employed in our framework. 
 <br>
-| <img src="img-post/interaction/Object_detection.jpg" alt="Object_detection" style="zoom:10%;" /> | <img src="img-post/interaction/轨迹追踪.png" alt="轨迹追踪" style="zoom:40%;" /> |
+| <img src="img-post/interaction/Object_detection.jpg" alt="Object_detection" style="zoom:10%;" /> | <img src="img-post/interaction/trajectory_track.png" alt="trajectory track" style="zoom:40%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                       Object detection                       |                     trajectory tracking                      |
 
 ​                                        **Figure 3. The processor of detecting objects and tracking trajectories ** 
-<br>
+### trajectory reconstruction
 **Fourth**, Reconstruction of the orginal trajectories. Due to the orginal trajectory is saving in different formats, I should be reorganize before next analysis step. There are four procedures should be implemented: reformation, filter and reconstruction. The details of this procedure shown as fellow.
 <br>
 | <img src="img-post/interaction/image-20231212164828225.png" alt="image-20231212164828225" style="zoom:48%;" /> | <img src="img-post/interaction/image-20231212165137586.png" alt="image-20231212165137586" style="zoom:48%;" /> |
@@ -57,7 +58,7 @@ import pandas as pd
 import numpy as np
 import os
 
-# define new format of saving data.
+#### Restructure the format of saving data.
 # The basic information: vehicle_ID ，vehicle_type,  x , y, speed, tan_acc, lat_acc, time
 
 ```python
@@ -135,9 +136,18 @@ input_path = r'E:/CodeResource/000_Traffic_conflict_risk_analysis/'
 output_path = r'E:/CodeResource/000_Traffic_conflict_risk_analysis/Data_clearning'
 Trajectory_denoise = File_procession(input_path,output_path)
 ```
+
+### Denoise 
 *The code of denoise, in the first step, we should calculate the variable of the vehicle motion, then denoise the trajectory.*
 
 ```python
+
+
+import numpy as np
+import pywt
+from skimage.restoration import denoise_wavelet
+import matplotlib.pyplot as plt
+
 # calculate the kinetic parameter
 def XY(groundtraj,caompartraj):
     g_World_x = np.array(groundtraj['world_x'].astype(float))
@@ -190,16 +200,8 @@ def Angle(trajectorydata):
     "calculate the Angle of vehilce"
     Angle_veh = np.array(trajectorydata.Angle)
     return Angle_veh
-```
 
-
-```python
 # wavelet algorithm for denoising
-import numpy as np
-import pywt
-from skimage.restoration import denoise_wavelet
-import matplotlib.pyplot as plt
-
 # Denoise the trajectory
 def wavelet_reduce_noise(input_data_path,output_data_path):
     'if you use this code you should format the trajectory at first.'
@@ -313,7 +315,6 @@ def wavelet_reduce_noise(input_data_path,output_data_path):
     Wt.to_csv(output_data_path,index=False, header=True)
     return Wt
 
-```python
 # processing the file one by one
 def File_procession(Input_file_path,Output_file_path):
     "This function will process the csv in the file path"
@@ -363,7 +364,7 @@ def AccHistmap(data1,data2):
   plt.grid()
   plt.show()
 ```
-
+### integrate together files 
 ```python
 def Compare_montion(Trajectory_No_filter,Trajectory_filter,veh_id):
     'compare the denoise effect'
@@ -379,7 +380,7 @@ def Compare_montion(Trajectory_No_filter,Trajectory_filter,veh_id):
     plt.scatter(Traj_f_vehid['frame_time'], Traj_f_vehid['speed_y'])
     plt.show()
 ```
-
+### calculate the conflict risk indictors
 Before calculate the conflict risk indictors we split the trajectory into different time pieces with the signal control time for accelerating the speed of calculation.  
 <br>
 
@@ -420,11 +421,7 @@ def create_subfolder(parent_folder, new_folder_name):
     else:
         print(f"subfile '{new_folder_name}' have been excited.")
     return new_folder_path
-```
 
-# define the input data path and the output data path
-
-```python
 def File_procession(Traj_file_path,Output_file_path,split_time_path):
     "This function will process the csv in the file path"
     files1 = os.listdir(Traj_file_path)
@@ -450,9 +447,7 @@ Output_file_path = r"D:\dataset\Intersection\Data_processing\Split_with_cycle_ti
 File_procession(Traj_file_path,Output_file_path,split_time_path)
 ```
 
-
 ```PYTHON
-# @ time
 import os
 import pandas as pd
 import re
@@ -488,11 +483,8 @@ def Extract_file_name(file_name):
 
 
 def create_subfolder(parent_folder, new_folder_name):
-    # 拼接路径，创建新的子文件夹路径
     new_folder_path = os.path.join(parent_folder, new_folder_name)
-    # 检查文件夹是否已经存在
     if not os.path.exists(new_folder_path):
-        # 如果不存在，则创建新的子文件夹
         os.makedirs(new_folder_path)
         print(f"子文件夹 '{new_folder_name}' 已创建成功.")
     else:
@@ -526,20 +518,15 @@ split_time_path = r"D:\dataset\Intersection\signal_time_in_video\Video_cycle_spl
 Output_file_path = r"D:\dataset\Intersection\Data_processing\Split_with_cycle_time/"
 File_procession(Traj_file_path, Output_file_path, split_time_path)
 ```
-<br>
-More inductor were employed in this research, such as TTC, PET, and  delta V MTTC and so on! The logistic of calculation are two kinds, first one is for by the conflict pairs, other one is by frame.  
-<br>
-**Firth, extracting the conflict event chain! **The next step is calculate the indictors of traffic conflicts, such as the TTC, PET, Delta-V and the risk field in the real time data. Here, summary the key step of processing. 
-<br>
-The idea of calculating the inductor traffic conflict between different vehicles. 
-<br>
 
+More inductor were employed in this research, such as TTC, PET, and  delta V MTTC and so on! The logistic of calculation are two kinds, first one is for by the conflict pairs, other one is by frame.  Firth, extracting the conflict event chain! **The next step is calculate the indictors of traffic conflicts, such as the TTC, PET, Delta-V and the risk field in the real time data. Here, summary the key step of processing. The idea of calculating the inductor traffic conflict between different vehicles. 
+
+
+### Calculate the TTC
 
 <img src="E:\CodeResource\000_Traffic_conflict_risk_analysis\Data_clearning\Data_set\conflict_calculate processing.png" alt="conflict_calculate processing" style="zoom:25%;" />
 
 ​							**Figure. 4. Calculate the TTC of two vehicles**
-
-
 
 Here, we designs a framework which can calculate conflict risk inductors by different modal. The dynamic inductor  update frame by frame,  the static inductor calculated with whole trajectories. 
 $$
@@ -828,6 +815,9 @@ The distribution of the conflict risk shows as fellow, the data from the Longcha
 
 ​                    **Figure. 5. The result of the risk inductors calculated from the trajectories**
 <br>
+
+### Modeling 
+
 **sixth, Modeling the evolving procession of interaction behavior between the motorized and Non-motorized vehicles.** 
 <br>
 a) **The first step is extract the event chain about the course of interacting.**
@@ -837,11 +827,9 @@ import numpy as np
 import pandas as pd
 import os
 
-# 对冲突类型进行分类，这边保留碰撞对象中涉及机动车的所有事故
 def Extract_conflict_relate_car(conflcit_envent_data_file):
     df = pd.read_csv(conflcit_envent_data_file)
     df = pd.DataFrame(df)
-    #  提取其中一辆车是机动车的交互事件
     interfere_motorveh = df[(df['F_vehicle_type'] == " Car") | (df['S_vehicle_type'] == " Car")]
     return interfere_motorveh
 # @ time
@@ -853,7 +841,6 @@ def Restructure_data_TTC(interfere_motor_vehicle,Columns_name):
     df_first_no_car = df[df['F_vehicle_type']!=" Car"]
     new_df_first_no_car = df_first_no_car.reset_index(drop=True)
     columnss = new_df_first_no_car.columns.tolist()
-    # 这边必须是：间隔
     new_columns = columnss[12:13] + columnss[1:2]+ columnss[13:23]+columnss[0:1]+columnss[2:12] + columnss[23:26]
     df_new_no_car_first = new_df_first_no_car[new_columns]
     df_new_no_car_first.columns.name = None
@@ -931,15 +918,15 @@ def File_procession(Input_file_path, Output_file_path,Columns_name,total_dataset
     Total_event_chain.to_csv(total_chain_path,index=False, header=True)
     return
 ```
-
+#### extract conflict event chain from conflict risk data
 ```python
-# extract conflict event chain from conflict risk data
 Columns_name = ['F_vehicle_id','F_frame_time','F_vehicle_type','F_world_x','F_world_y','F_speed_x','F_speed_y','F_acc_x', 'F_acc_y', 'F_Jerk_x', 'F_Jerk_y','F_Angle','S_vehicle_id','S_vehicle_type','S_world_x','S_world_y','S_speed_x','S_speed_y','S_acc_x','S_acc_y','S_Jerk_x','S_Jerk_y','S_Angle','cross_point_x','cross_point_y','TTC']
 total_dataset_path = 'D:/dataset/Intersection/Data_processing/Conflict_event/TTC/Total_dataset/MY_conflict.csv'
 ttc_data_path = r"D:/dataset/Intersection/Data_processing/Riskinductor/TTC/MY"
 conflict_event_save = r'D:/dataset/Intersection/Data_processing/Conflict_event/TTC/MY'
 File_procession(ttc_data_path, conflict_event_save,Columns_name,total_dataset_path)
 ```
+### define the variables
 
 **b) The second step define the variables related to the severity of conflict risk.**
 
