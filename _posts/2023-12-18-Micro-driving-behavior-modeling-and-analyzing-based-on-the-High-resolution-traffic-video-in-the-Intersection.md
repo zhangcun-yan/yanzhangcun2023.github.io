@@ -382,6 +382,7 @@ def Compare_montion(Trajectory_No_filter,Trajectory_filter,veh_id):
 
 Before calculate the conflict risk indictors we split the trajectory into different time pieces with the signal control time for accelerating the speed of calculation.  
 <br>
+
 ```python
 # @ time
 import os
@@ -419,9 +420,11 @@ def create_subfolder(parent_folder, new_folder_name):
     else:
         print(f"subfile '{new_folder_name}' have been excited.")
     return new_folder_path
-
+```
 
 # define the input data path and the output data path
+
+```python
 def File_procession(Traj_file_path,Output_file_path,split_time_path):
     "This function will process the csv in the file path"
     files1 = os.listdir(Traj_file_path)
@@ -828,7 +831,7 @@ The distribution of the conflict risk shows as fellow, the data from the Longcha
 **sixth, Modeling the evolving procession of interaction behavior between the motorized and Non-motorized vehicles.** 
 <br>
 a) **The first step is extract the event chain about the course of interacting.**
-<br>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -1025,6 +1028,8 @@ The logistics of this code is that
 <br>
 First, we should integrate the trajectory by the intersection name.
 <br>
+
+
 ```python
 # intergate the trajectory together. 
 def File_procession(Input_file_path,Output_file_path):
