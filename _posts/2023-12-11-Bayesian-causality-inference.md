@@ -61,8 +61,8 @@ tags:
 * [自动驾驶长期车辆轨迹预测的概率架构](https://www.x-mol.com/paper/1505595003876786176/t)
 * [EconML: A Python Package for ML-Based Heterogeneous Treatment Effects Estimation](https://github.com/py-why/EconML)
 * [econml’s documentation](https://econml.azurewebsites.net/)
-* [Dowhy]:https://www.pywhy.org/dowhy/v0.8/example_notebooks/dowhy_simple_example.html#Interface-1-(recommended):-Input-causal-graph
-* [Causalify discovery]:https://github.com/FenTechSolutions/CausalDiscoveryToolbox/blob/master/examples/example_cgnn.ipynb
+* [Dowhy](https://www.pywhy.org/dowhy/v0.8/example_notebooks/dowhy_simple_example.html#Interface-1-(recommended):-Input-causal-graph)
+* [Causalify discovery](https://github.com/FenTechSolutions/CausalDiscoveryToolbox/blob/master/examples/example_cgnn.ipynb)
 
 ### Peak theory
 * [Peak theory](https://lbelzile.github.io/mevtuto/index.html)
