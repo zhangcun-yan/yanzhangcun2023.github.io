@@ -4,7 +4,7 @@ title:      Micro-driving behavior modeling
 subtitle:   summary
 date:       2023-12-18
 author:     Zhangcun Yan
-header-img: img/post-bg-github-cup.jpg
+header-img: img/driving.jpg
 catalog: true
 tags:
     - Research Notebook
@@ -14,18 +14,21 @@ tags:
 
 The implementation of computer vision algorithms has being bombed by the breakthroughs in computing power especially in the intelligent transportation systems. But there some ramparts between computer vision algorithm and traditionally traffic theory. Here, I want to show whole procedures for Modeling the interaction behavior between motorized and Non-Motorized  vehicles based the High-resolution traffic video from roadside view. To summarize those procedures and provide cleaning tutorials for the ordinal student, Some of the details background information was omitted and just saved the main steps. 
 
-### Record video
+## Record video
+
 **First**, we should prepare the basic information of object scenarios that contains the unobstructed videos, the Geometric size of the object intersection, and the signal plans. These information will help you to convert picture information to real world. For instance, the fellow figures show **the real world coordination system** and the some details about basic information.  You can establish the real world coordinator system basic on geometric information from the high-resolution measures experiment. On the other way, you can get less five marked points of the intersections by the GPS location system app on mobile phones. 
 <br>
-| <img src="img-post/interaction/changjidong-moyu.jpg" alt="changjidong-moyu" style="zoom:13%;" /> | <img src="img-post/interaction/Figure_sharing space in intersection.jpg" alt="Figure_sharing space in intersection" style="zoom:13%;" /> |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                       a). Moyu-changji                       |                      Longchang-jiyanglu                      |
-| <img src="img-post/interaction/Jianhe-xianxia road.png" alt="Jianhe-xianxia road" style="zoom:13%;" /> | <img src="img-post/interaction/WN_intersection.png" alt="WN_intersection" style="zoom:13%;" /> |
-|                        jianhe-xianxia                        |                        Ningwu-Hejian                         |
 
-​	**Figure.1. The methodology of estimating the real world coordinator**
+| ![changjidong-moyu](E:\Github\yanzhangcun.github.io\_posts\changjidong-moyu.jpg) | ![Jianhe-xianxia road](E:\Github\yanzhangcun.github.io\_posts\Jianhe-xianxia road.png) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| a). Moyu-changji                                             | b). Jianhe-xianxia                                           |
+| ![LC](E:\Github\yanzhangcun.github.io\_posts\LC.png)         | ![WN_intersection](E:\Github\yanzhangcun.github.io\_posts\WN_intersection.png) |
+| c). Longchang-jiyanglu                                       | d). Ningwu-Hejian                                            |
 
-### object detection and trajectory tracking
+**Figure.1. The methodology of estimating the real world coordinator**
+
+## object detection and trajectory tracking
+
 **Second**, Make the datasets and train the detection model, you should label the object which you chosen based on your research topic(such as: Car, Bus, truck, Fright, president, electrical bicycles and bicycles so on!) in you video. Some software can help you finish this task effectively. such as, [ImageLabel](https://create.roblox.com/docs/reference/engine/classes/ImageLabel). And then, chose suite computer vision algorithm as the detection model, Here, I introduce **Yolov8** algorithm.
 <br>
 <img src="E:\Academic\project\Drivingbehaviormoding\study procedure\Figure\trajectory tracker.jpg" alt="trajectory tracker " style="zoom:70%;" />
@@ -34,23 +37,28 @@ The implementation of computer vision algorithms has being bombed by the breakth
 
 **Third**, Detection the object and Tracking the Trajectories. Now, we can connect the detection model with tracking model. The better tracking model is the evolution of Deepsort algorithm which is employed in our framework. 
 <br>
-| <img src="img-post/interaction/Object_detection.jpg" alt="Object_detection" style="zoom:10%;" /> | <img src="img-post/interaction/trajectory_track.png" alt="trajectory track" style="zoom:40%;" /> |
+
+| <img src="E:\Github\yanzhangcun.github.io\_posts\Object_detection.jpg" alt="Object_detection" style="zoom:12%;" /> | <img src="E:\Github\yanzhangcun.github.io\_posts\traj_track.png" alt="traj_track" style="zoom: 50%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                       Object detection                       |                     trajectory tracking                      |
+|                     a).object detection                      |                       b). object track                       |
 
 ​                                        **Figure 3. The processor of detecting objects and tracking trajectories ** 
-### trajectory reconstruction
+
+## trajectory reconstruction
+
 **Fourth**, Reconstruction of the orginal trajectories. Due to the orginal trajectory is saving in different formats, I should be reorganize before next analysis step. There are four procedures should be implemented: reformation, filter and reconstruction. The details of this procedure shown as fellow.
 <br>
-| <img src="img-post/interaction/image-20231212164828225.png" alt="image-20231212164828225" style="zoom:48%;" /> | <img src="img-post/interaction/image-20231212165137586.png" alt="image-20231212165137586" style="zoom:48%;" /> |
+
+| ![MY_TRAJ](E:\Github\yanzhangcun.github.io\_posts\MY_TRAJ.png) | ![JH](E:\Github\yanzhangcun.github.io\img\interaction\JH.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| JH-XX                                                        | MY-CJ                                                        |
-| <img src="img-post/interaction/image-20231212165413946.png" alt="image-20231212165413946" style="zoom:48%;" /> | <img src="img-post/interaction/image-20231212165623939.png" alt="image-20231212165623939" style="zoom:48%;" /> |
+| MY-CJ                                                        | JH-XX                                                        |
+| ![LC_traj](E:\Github\yanzhangcun.github.io\_posts\LC_traj.png) | ![NW_traj](E:\Github\yanzhangcun.github.io\_posts\NW_traj.png) |
 | LC-JY                                                        | NW-HJ                                                        |
 
 <br>
 *The code of reformation:*
 <br>
+
 ```python
 # Basic packages 
 import math
@@ -524,7 +532,7 @@ More inductor were employed in this research, such as TTC, PET, and  delta V MTT
 
 ### Calculate the TTC
 
-<img src="E:\CodeResource\000_Traffic_conflict_risk_analysis\Data_clearning\Data_set\conflict_calculate processing.png" alt="conflict_calculate processing" style="zoom:25%;" />
+![conflict](E:\Github\yanzhangcun.github.io\_posts\conflict.png)
 
 ​							**Figure. 4. Calculate the TTC of two vehicles**
 
@@ -809,7 +817,7 @@ Trajectory_conflict = File_procession(data_path,output_path,time_gap,Delta,Colum
 
 The flowchart of modeling interaction behavior between Motorized vehicle and Non-Motorized vehicles.
 
-![flowchart](img-post/interaction/flowchart.png)
+![flowchart](E:\Github\yanzhangcun.github.io\_posts\flowchart.png)
 
 The distribution of the conflict risk shows as fellow, the data from the Longchang-Ningwu intersections.
 
@@ -1007,7 +1015,7 @@ Define the variable of driving_purpose. In this step,  we need match label each 
 
 |                     Direction of Turning                     |                       MY intersection                        |                       JH intersection                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="img-post/interaction/Direction_of_intersection.jpg" alt="Direction_of_intersection" style="zoom:18%;" /> | <img src="img-post/interaction/MY.png" alt="MY" style="zoom:40%;" /> | <img src="img-post/interaction/myplot.png" alt="myplot" style="zoom:40%;" /> |
+| <img src="img/interaction/Direction_of_intersection.jpg" alt="Direction_of_intersection" style="zoom:18%;" /> | <img src="img/interaction/MY.png" alt="MY" style="zoom:40%;" /> | <img src="img/interaction/myplot.png" alt="myplot" style="zoom:40%;" /> |
 
 The logistics of this code is that. First, we should integrate the trajectory by the intersection name.
 
