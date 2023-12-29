@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Mathematics Class
-subtitle:   Good video of the mathematics
+title:      Mathematics and Merchine Leaning Class
+subtitle:   Good meterial of the mathematics
 date:       2023-10-30
 author:     Zhangcun Yan
 header-img: img/poly.jpg
@@ -18,3 +18,17 @@ Although I have been studying mathematics for twenty years, I have never really 
 ### linear algebra
 * [Linear algebra teaching at MIT in 2020](https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/video_galleries/videos/)
 * [Linear algebra teaching by Gil Strang's in MIT](https://www.youtube.com/watch?v=lUUte2o2Sn8&list=PLUl4u3cNGP60DW_heGsvmEGwaXtGuSzQ7)
+* [Terence Tao,UCLA](https://www.math.ucla.edu/~tao/)
+
+### Merchine Resource
+
+### Course in University of Montreal
+* [Merchine learning](https://www.iro.umontreal.ca/~slacoste/teaching/ift6269/A22/project.html)
+* [Probabilistic Graphical Models](https://www.iro.umontreal.ca/~slacoste/teaching/ift6269/A22/)
+* [James-A. Goulet's Probabilistic Merchine learning](https://profs.polymtl.ca/jagoulet/Site/Goulet_web_page_TEACHING.html)
+* [Causal inference in MILA](https://www.dsridhar.com/courses/787-causal-inference-and-ml)
+* [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course)
+
+### [Course in University of Washington]
+* [Dynamic Mode](http://dmdbook.com/)
+* []
