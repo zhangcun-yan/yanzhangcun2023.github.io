@@ -20,7 +20,7 @@ Although I have been studying mathematics for twenty years, I have never really 
 * [Linear algebra teaching by Gil Strang's in MIT](https://www.youtube.com/watch?v=lUUte2o2Sn8&list=PLUl4u3cNGP60DW_heGsvmEGwaXtGuSzQ7)
 * [Terence Tao,UCLA](https://www.math.ucla.edu/~tao/)
 
-### Merchine Resource
+## Merchine Resource
 
 ### Course in University of Montreal
 * [Merchine learning](https://www.iro.umontreal.ca/~slacoste/teaching/ift6269/A22/project.html)
@@ -29,6 +29,5 @@ Although I have been studying mathematics for twenty years, I have never really 
 * [Causal inference in MILA](https://www.dsridhar.com/courses/787-causal-inference-and-ml)
 * [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course)
 
-### [Course in University of Washington]
+### Course in University of Washington
 * [Dynamic Mode](http://dmdbook.com/)
-* []
