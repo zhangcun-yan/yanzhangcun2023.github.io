@@ -41,6 +41,7 @@ tags:
 * [Causal inference resource(useful Causality inference)](https://causalpython.io/#holiday-resources)
 * [Github resources](https://github.com/msuzen/looper/blob/master/looper.md)
 * [A tutorial of causal inference in python](https://causalnex.readthedocs.io/en/latest/03_tutorial/01_first_tutorial.html)
+* [causal inference good video](https://www.youtube.com/watch?v=wJ_AkNELm6Q)
 
 ### Dynamic Bayesian Network
 * [Dynamic Bayesian Network PPT](https://slideplayer.com/slide/13536477/)
