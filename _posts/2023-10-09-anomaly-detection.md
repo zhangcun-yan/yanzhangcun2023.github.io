@@ -34,3 +34,5 @@ How detect outlines by machine learning methods?
 * [AI-Based Time Series Anomaly Detection for Cyber-Physical Systems at the University of Stuttgart](https://x.com/MathWorks/status/1710958275590504701?t=HjZ8H0ow6xlApIi3jAhmcw&s=05)
 
 * [software platform for time series anomaly detection](https://twitter.com/MathWorks/status/1710958275590504701?t=HjZ8H0ow6xlApIi3jAhmcw&s=05)
+
+* [real time anomaly detection under distribution drift](https://www.amazon.science/blog/real-time-anomaly-detection-under-distribution-drift)

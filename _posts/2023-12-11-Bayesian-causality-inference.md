@@ -42,6 +42,8 @@ tags:
 * [Github resources](https://github.com/msuzen/looper/blob/master/looper.md)
 * [A tutorial of causal inference in python](https://causalnex.readthedocs.io/en/latest/03_tutorial/01_first_tutorial.html)
 * [causal inference good video](https://www.youtube.com/watch?v=wJ_AkNELm6Q)
+* [double machin lerning](https://academic.oup.com/ectj/article/21/1/C1/5056401)
+
 
 ### Dynamic Bayesian Network
 * [Dynamic Bayesian Network PPT](https://slideplayer.com/slide/13536477/)
@@ -52,6 +54,7 @@ tags:
 * [Introduction to pyAgrum](https://pyagrum.readthedocs.io/en/latest/)
 * [Causalnex](https://causalnex.readthedocs.io/en/latest/03_tutorial/05_latent_variable_tutorial.html)
 * [dynamic Bayesian networks](https://pyagrum.readthedocs.io/en/1.3.1/notebooks/22-Models_dynamicBn.html)
+* [end-to-end balancing for causal continuous treatment-effect estimation](https://www.amazon.science/publications/end-to-end-balancing-for-causal-continuous-treatment-effect-estimation)
    
 ### implementation of Bayesian Networks
 * [Bayesian Networks Explained With Examples](https://www.edureka.co/blog/bayesian-networks/)
