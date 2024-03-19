@@ -10,7 +10,7 @@ tags:
     - technology notebook
 ---
 
-
+###  Git
 How to upload your project to Github！
 
 There some steps :
@@ -49,4 +49,10 @@ So you need to change your repo config on your PC to ssh way:
 
 4. create a new folder by command “import os ; folderpath =“/”; os.makedirs(folderpath,exist_ok=True”)
 
-5.
+
+
+###  Offic tools
+
+**PDF**
+
+1.[Compress PDF](https://smallpdf.com/result#r=1d898b1b1d97f6a87d700957b8954afd&t=compress)

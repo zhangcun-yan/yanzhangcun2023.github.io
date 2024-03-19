@@ -19,6 +19,8 @@ tags:
 
 * [Geographical analysis about life environment:](https://yanzhangcun.github.io/files/ebooks/Data_analysis/Geographically-weighted-regression-models.pdf)
 
+* [Geographic Data with Basemap:](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html)
+
 #### Data Visualisation
 * [Geographical analysis about life environment:](https://yanzhangcun.github.io/files/ebooks/Data_analysis/75674_Kirk_Data_Visualisation.pdf)
 * [Principles of Geographic Information Systems](https://yanzhangcun.github.io/files/ebooks/Data_analysis/A_GEROGRAHY.pdf)

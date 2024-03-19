@@ -33,3 +33,8 @@ Most famous open project about causal discovery on Github is Gcaste which from [
 
 
 
+### **New research topic** ###
+
+*[Efficiently Modeling Long Sequences with Structured State Spaces] (https://arxiv.org/pdf/2111.00396.pdf)
+
+
