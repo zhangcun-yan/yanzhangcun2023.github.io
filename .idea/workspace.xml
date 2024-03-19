@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547bba54-aaa0-412b-a969-92f14b72fcf9" name="Changes" comment="" />
+    <list default="true" id="547bba54-aaa0-412b-a969-92f14b72fcf9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Jianhe-xianxia road.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/LC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/LC_traj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/MY_TRAJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/NW_traj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Object_detection.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/WN_intersection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/changjidong-moyu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/conflict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/flowchart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/traj_track.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +70,12 @@
       <workItem from="1703984996975" duration="130000" />
       <workItem from="1704025243978" duration="473000" />
       <workItem from="1704065784188" duration="29000" />
+      <workItem from="1707972794409" duration="30000" />
+      <workItem from="1707972840577" duration="41000" />
+      <workItem from="1708046462471" duration="153000" />
+      <workItem from="1708222803356" duration="638000" />
+      <workItem from="1708339230639" duration="596000" />
+      <workItem from="1708342868929" duration="16000" />
     </task>
     <servers />
   </component>

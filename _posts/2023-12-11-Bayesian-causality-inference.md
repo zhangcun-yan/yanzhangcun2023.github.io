@@ -55,7 +55,7 @@ tags:
 * [Causalnex](https://causalnex.readthedocs.io/en/latest/03_tutorial/05_latent_variable_tutorial.html)
 * [dynamic Bayesian networks](https://pyagrum.readthedocs.io/en/1.3.1/notebooks/22-Models_dynamicBn.html)
 * [end-to-end balancing for causal continuous treatment-effect estimation](https://www.amazon.science/publications/end-to-end-balancing-for-causal-continuous-treatment-effect-estimation)
-   
+  
 ### implementation of Bayesian Networks
 * [Bayesian Networks Explained With Examples](https://www.edureka.co/blog/bayesian-networks/)
 * [Bayesian inference problem, MCMC and variational inference](https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29)
@@ -71,9 +71,19 @@ tags:
 ### Peak theory
 * [Peak theory](https://lbelzile.github.io/mevtuto/index.html)
 * [Peak theory in matlab](https://www.mathworks.com/help/stats/modelling-data-with-the-generalized-extreme-value-distribution.html)
+* [pareto theory in scipy.stats](https://docs.scipy.org/doc//scipy-1.4.1/reference/generated/scipy.stats.pareto.html)
+* [广义Pareto分布---极值理论的学习3](https://blog.csdn.net/qq_36713450/article/details/86513272)(https://blog.csdn.net/gggfff12345/article/details/121442686?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121442686-blog-86513272.235%5Ev43%5Epc_blog_bottom_relevance_base7&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121442686-blog-86513272.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1)
+* [A story about a probability distribution: Pareto distribution](https://medium.com/@snp.kriss/a-story-about-a-probability-distribution-pareto-distribution-86c733b8c5ab)
+* [Monte Carlo Simulation: A Comprehensive Guide](https://medium.com/@pelinokutan/monte-carlo-simulation-a-comprehensive-guide-67ba39028831)
+* [Explaining the 80-20 Rule with the Pareto Distribution](https://dlab.berkeley.edu/news/explaining-80-20-rule-pareto-distribution)
+
+* [Add an example]()
 
 ### Probability theory- distribution 
 * [Weibull distribution](https://www.kaggle.com/code/harshaggarwal7/wind-analysis-weibull/notebook)
+* [SMOTE过采样详解](解决样本不均衡问题：SMOTE过采样详解)
+* [Cohen's kappa](https://blog.csdn.net/diemeng1119/article/details/12653149)
+* [留一验证法](https://zhuanlan.zhihu.com/p/156657195)
 
 ## Data science
   [🔥📊💲 Store Sales EDA, Prediction with TS 🔥🎯](https://www.kaggle.com/code/kalilurrahman/store-sales-eda-prediction-with-ts)

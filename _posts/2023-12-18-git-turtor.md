@@ -38,3 +38,15 @@ So you need to change your repo config on your PC to ssh way:
    `url=ssh://git@github.com/derekerdmann/lunch_call.git`
    That is, change all the texts before `@` symbol to `ssh://git`
 4. Save `config` file and quit. now you could use `git push origin master` to sync your repo on GitHub.
+
+
+
+**Use git in colab**
+
+1. connect colab with google drive by command :{from google.colab import drive; drive.mount('/content/drive')}
+2. check the file in the folder by command “!ls”
+3. change the folder by command “%cd folder path”
+
+4. create a new folder by command “import os ; folderpath =“/”; os.makedirs(folderpath,exist_ok=True”)
+
+5.
