@@ -23,3 +23,4 @@ tags:
 **intersection trajectory data**
     [LUMPI: The Leibniz University Multi-Perspective Intersection Dataset](https://data.uni-hannover.de/dataset/lumpi)
     [INTERACTION Dataset](https://interaction-dataset.com/)
+    [levelxdata](https://levelxdata.com/)
