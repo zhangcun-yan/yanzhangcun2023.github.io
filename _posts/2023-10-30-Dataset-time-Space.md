@@ -21,8 +21,8 @@ tags:
 ## Micro-dataset
 
 **intersection trajectory data**
-    [LUMPI: The Leibniz University Multi-Perspective Intersection Dataset](https://data.uni-hannover.de/dataset/lumpi)
+* [LUMPI: The Leibniz University Multi-Perspective Intersection Dataset](https://data.uni-hannover.de/dataset/lumpi)
     
-    [INTERACTION Dataset](https://interaction-dataset.com/)
+* [INTERACTION Dataset](https://interaction-dataset.com/)
     
-    [levelxdata in German](https://levelxdata.com/)
+* [levelxdata in German](https://levelxdata.com/)
