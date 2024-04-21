@@ -17,6 +17,8 @@ Although I have been studying mathematics for twenty years, I have never really 
 
 ### linear algebra
 * [Linear algebra teaching at MIT in 2020](https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/video_galleries/videos/)
+* [Linear algebra teaching at MIT in B-station](https://www.bilibili.com/video/BV1at411d79w/?from=search&seid=4025877564496457871&vd_source=eadde1477a58ba202d5070a8f223d4d4)
+* [Mit GILBERT STRANG](https://math.mit.edu/~gs/)[Ebook-introduction of linear algebra](https://yanzhangcun.github.io/files/ebooks/Gilbert_Strang-Introduction-to-Linear-Algebra.pdf)
 * [Linear algebra teaching by Gil Strang's in MIT](https://www.youtube.com/watch?v=lUUte2o2Sn8&list=PLUl4u3cNGP60DW_heGsvmEGwaXtGuSzQ7)
 * [Terence Tao,UCLA](https://www.math.ucla.edu/~tao/)
 

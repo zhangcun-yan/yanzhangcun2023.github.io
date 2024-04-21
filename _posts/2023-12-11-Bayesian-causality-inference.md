@@ -87,3 +87,7 @@ tags:
 
 ## Data science
   [🔥📊💲 Store Sales EDA, Prediction with TS 🔥🎯](https://www.kaggle.com/code/kalilurrahman/store-sales-eda-prediction-with-ts)
+
+
+## How to quality the sammality of two data?
+* [DTW](https://rtavenar.github.io/blog/dtw.html)
