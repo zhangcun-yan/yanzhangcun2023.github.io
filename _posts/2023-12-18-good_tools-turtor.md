@@ -56,3 +56,10 @@ So you need to change your repo config on your PC to ssh way:
 **PDF**
 
 1.[Compress PDF](https://smallpdf.com/result#r=1d898b1b1d97f6a87d700957b8954afd&t=compress)
+
+
+### Interpretable AI
+
+**SHAP**
+1.[How to use shap](https://blog.csdn.net/sinat_26917383/article/details/115400327)
+2.[Draw the figure of shap](https://blog.51cto.com/u_13544/8766623)
