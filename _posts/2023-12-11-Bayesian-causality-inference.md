@@ -43,6 +43,19 @@ tags:
 * [A tutorial of causal inference in python](https://causalnex.readthedocs.io/en/latest/03_tutorial/01_first_tutorial.html)
 * [causal inference good video](https://www.youtube.com/watch?v=wJ_AkNELm6Q)
 * [double machin lerning](https://academic.oup.com/ectj/article/21/1/C1/5056401)
+* [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+* [Double Machine Learning](https://econml.azurewebsites.net/spec/estimation/dml.html)
+* [EconML-github](https://github.com/py-why/EconML/blob/main/notebooks/CustomerScenarios/Case%20Study%20-%20Customer%20Segmentation%20at%20An%20Online%20Media%20Company.ipynb)
+* [Uplift Modeling](https://cloud.tencent.com/developer/article/1913510?areaId=106001)
+* [Uplift Modeling2](https://blog.csdn.net/sinat_26917383/article/details/120784044)
+* [AB实验人群定向HTE模型5 - Meta Learner](https://cloud.tencent.com/developer/article/1600827?areaId=106001)
+* [因果推断笔记——入门学习因果推断在智能营销、补贴的通用框架](https://cloud.tencent.com/developer/article/1913932?areaId=106001)
+* [知乎系列博客](https://zhuanlan.zhihu.com/p/411557982)
+* [知乎系列-反事实推断](https://zhuanlan.zhihu.com/p/456077863)
+* [画画因果图](https://dango.rocks/blog/2019/09/24/Causality5-Drawing-Causal-Diagram/)
+* [美团-因果启发的学习、推断和决策](https://tech.meituan.com/2022/03/17/causal-inference.html)
+* [基于图自编码器的因果结构学习模型](https://zhuanlan.zhihu.com/p/389006771)
+* [Causal inference when treatments are continuous variables](https://www.amazon.science/blog/causal-inference-when-treatments-are-continuous-variables)
 
 
 ### Dynamic Bayesian Network
@@ -91,3 +104,10 @@ tags:
 
 ## How to quality the sammality of two data?
 * [DTW](https://rtavenar.github.io/blog/dtw.html)
+
+### Feature engineering
+* [Feature Selection ](https://wcfrank.github.io/2019/04/25/Feature%20Selection%201/)
+
+
+### small data smpler
+* [STUNT：通过自动生成任务提高小样本表格任务学习性能](https://zhuanlan.zhihu.com/p/622587156)
