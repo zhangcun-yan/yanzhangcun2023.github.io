@@ -57,6 +57,7 @@ tags:
 * [基于图自编码器的因果结构学习模型](https://zhuanlan.zhihu.com/p/389006771)
 * [Causal inference when treatments are continuous variables](https://www.amazon.science/blog/causal-inference-when-treatments-are-continuous-variables)
 * [连续处理的因果推理](https://towardsdatascience.com/causal-inference-with-continuous-treatments-5ff691869a65)
+* [duoble Merchine Learning2](https://docs.doubleml.org/stable/guide/basics.html)
 
 
 ### Dynamic Bayesian Network
