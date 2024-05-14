@@ -99,6 +99,15 @@ tags:
 * [SMOTE过采样详解](解决样本不均衡问题：SMOTE过采样详解)
 * [Cohen's kappa](https://blog.csdn.net/diemeng1119/article/details/12653149)
 * [留一验证法](https://zhuanlan.zhihu.com/p/156657195)
+* [Modeling data distributions](https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data)
+* [Density Estimation for a Gaussian mixture](https://scikit-learn.org/stable/auto_examples/neural_networks/plot_mlp_alpha.html#sphx-glr-auto-examples-neural-networks-plot-mlp-alpha-py)
+* [Feature discretization](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_discretization_classification.html#sphx-glr-auto-examples-preprocessing-plot-discretization-classification-py)
+* []()
+
+
+## Dynamic bayesian
+*[Bayesian Velocity Models for Horse Race Simulation](https://www.kaggle.com/code/bkumagai/bayesian-velocity-models-for-horse-race-simulation/notebook)
+*[ A Modern and Comprehensive Probabilistic Programming Framework in Python](https://github.com/pymc-devs/pymc)
 
 ## Data science
   [🔥📊💲 Store Sales EDA, Prediction with TS 🔥🎯](https://www.kaggle.com/code/kalilurrahman/store-sales-eda-prediction-with-ts)
@@ -110,6 +119,10 @@ tags:
 ### Feature engineering
 * [Feature Selection ](https://wcfrank.github.io/2019/04/25/Feature%20Selection%201/)
 
+
+### Data vision
+* [How to create a 3D time-series map using Python and Kepler.gl](https://towardsdatascience.com/an-interactive-3d-map-of-police-action-s-that-have-resulted-in-death-b9d7fbf81822)
+* []
 
 ### small data smpler
 * [STUNT：通过自动生成任务提高小样本表格任务学习性能](https://zhuanlan.zhihu.com/p/622587156)
