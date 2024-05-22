@@ -87,12 +87,11 @@ tags:
 * [Peak theory](https://lbelzile.github.io/mevtuto/index.html)
 * [Peak theory in matlab](https://www.mathworks.com/help/stats/modelling-data-with-the-generalized-extreme-value-distribution.html)
 * [pareto theory in scipy.stats](https://docs.scipy.org/doc//scipy-1.4.1/reference/generated/scipy.stats.pareto.html)
-* [广义Pareto分布---极值理论的学习3](https://blog.csdn.net/qq_36713450/article/details/86513272)(https://blog.csdn.net/gggfff12345/article/details/121442686?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121442686-blog-86513272.235%5Ev43%5Epc_blog_bottom_relevance_base7&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121442686-blog-86513272.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1)
+* [广义Pareto分布---极值理论的学习3](https://blog.csdn.net/qq_36713450/article/details/86513272)
+* [极值理论（二）：阈值超越量与尾部估计](https://blog.csdn.net/gggfff12345/article/details/121442686?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121442686-blog-86513272.235%5Ev43%5Epc_blog_bottom_relevance_base7&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121442686-blog-86513272.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1)
 * [A story about a probability distribution: Pareto distribution](https://medium.com/@snp.kriss/a-story-about-a-probability-distribution-pareto-distribution-86c733b8c5ab)
 * [Monte Carlo Simulation: A Comprehensive Guide](https://medium.com/@pelinokutan/monte-carlo-simulation-a-comprehensive-guide-67ba39028831)
 * [Explaining the 80-20 Rule with the Pareto Distribution](https://dlab.berkeley.edu/news/explaining-80-20-rule-pareto-distribution)
-
-* [Add an example]()
 
 ### Probability theory- distribution 
 * [Weibull distribution](https://www.kaggle.com/code/harshaggarwal7/wind-analysis-weibull/notebook)
@@ -102,18 +101,16 @@ tags:
 * [Modeling data distributions](https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data)
 * [Density Estimation for a Gaussian mixture](https://scikit-learn.org/stable/auto_examples/neural_networks/plot_mlp_alpha.html#sphx-glr-auto-examples-neural-networks-plot-mlp-alpha-py)
 * [Feature discretization](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_discretization_classification.html#sphx-glr-auto-examples-preprocessing-plot-discretization-classification-py)
-* []()
 
-
-## Dynamic bayesian
+### Dynamic bayesian
 *[Bayesian Velocity Models for Horse Race Simulation](https://www.kaggle.com/code/bkumagai/bayesian-velocity-models-for-horse-race-simulation/notebook)
-*[ A Modern and Comprehensive Probabilistic Programming Framework in Python](https://github.com/pymc-devs/pymc)
+*[A Modern and Comprehensive Probabilistic Programming Framework in Python](https://github.com/pymc-devs/pymc)
 
 ## Data science
-  [🔥📊💲 Store Sales EDA, Prediction with TS 🔥🎯](https://www.kaggle.com/code/kalilurrahman/store-sales-eda-prediction-with-ts)
+* [Store Sales EDA, Prediction with TS](https://www.kaggle.com/code/kalilurrahman/store-sales-eda-prediction-with-ts)
 
 
-## How to quality the sammality of two data?
+###  How to quality the sammality of two data?
 * [DTW](https://rtavenar.github.io/blog/dtw.html)
 
 ### Feature engineering
@@ -122,7 +119,6 @@ tags:
 
 ### Data vision
 * [How to create a 3D time-series map using Python and Kepler.gl](https://towardsdatascience.com/an-interactive-3d-map-of-police-action-s-that-have-resulted-in-death-b9d7fbf81822)
-* []
 
 ### small data smpler
 * [STUNT：通过自动生成任务提高小样本表格任务学习性能](https://zhuanlan.zhihu.com/p/622587156)
