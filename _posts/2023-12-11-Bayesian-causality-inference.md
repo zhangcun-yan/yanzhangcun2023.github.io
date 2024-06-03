@@ -102,8 +102,12 @@ tags:
 * [Modeling data distributions](https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data)
 * [Density Estimation for a Gaussian mixture](https://scikit-learn.org/stable/auto_examples/neural_networks/plot_mlp_alpha.html#sphx-glr-auto-examples-neural-networks-plot-mlp-alpha-py)
 * [Feature discretization](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_discretization_classification.html#sphx-glr-auto-examples-preprocessing-plot-discretization-classification-py)
-* []()
 
+### Gaussian process Dynamical Models
+* [高斯过程动态模型简析](https://blog.csdn.net/Pericles_HAT/article/details/127387171?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171740728416800186545093%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=171740728416800186545093&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-5-127387171-null-null.142^v100^pc_search_result_base7&utm_term=%E6%B7%B7%E5%90%88%E9%AB%98%E6%96%AF%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E9%A2%84%E6%B5%8B&spm=1018.2226.3001.4187)
+* [Gaussian Process Dynamical Models](https://gregorygundersen.com/blog/2020/07/24/gpdm/#integrating-out-the-weights)
+* [任务参数化高斯混合模型（task-parameterized Gaussian mixture model，TP-GMM）](https://blog.csdn.net/weixin_44420419/article/details/120228043?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171740464716800182130472%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=171740464716800182130472&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-12-120228043-null-null.142^v100^pc_search_result_base7&utm_term=%E6%B7%B7%E5%90%88%E9%AB%98%E6%96%AF%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E9%A2%84%E6%B5%8B&spm=1018.2226.3001.4187)
+* []()
 
 ## Dynamic bayesian
 *[Bayesian Velocity Models for Horse Race Simulation](https://www.kaggle.com/code/bkumagai/bayesian-velocity-models-for-horse-race-simulation/notebook)
