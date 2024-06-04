@@ -111,6 +111,8 @@ tags:
 * [On-line Gaussian Mixture Model with Recurrent Neural Network.ipynb](https://gist.github.com/lirnli/fc7cf6235ef1a0343321af6f1be01702)
 * [现代统计-高斯过程](https://bookdown.org/xiangyun/masr/gaussian-processes-regression.html)
 * [高斯过程案例](https://colab.research.google.com/drive/1vRizcpcAzJd_Xc9Xv3Ts30mgkokApF7E#scrollTo=KQJ1RpGAJIOJ)
+* [gaussian_process_case](https://github.com/borgwang/toys/blob/master/math-GP/gaussian_process.ipynb)
+* [高斯过程 Gaussian Processes 原理、可视化及代码实现](https://zhuanlan.zhihu.com/p/75589452)
 
 ## Dynamic bayesian
 *[Bayesian Velocity Models for Horse Race Simulation](https://www.kaggle.com/code/bkumagai/bayesian-velocity-models-for-horse-race-simulation/notebook)
