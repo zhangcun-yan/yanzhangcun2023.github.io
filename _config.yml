@@ -1,5 +1,5 @@
 # Site settings
-title: Yanzc 闫章存
+title: Zhangcun Yan
 SEOTitle: Academic and Life Record
 header-img: img/university-0.jpg
 email: zy221418@gmail.com
@@ -16,12 +16,11 @@ sidebar-avatar: /img/me_quebec21.JPG      # use absolute URL, seeing it's used i
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
 zhihu_username:       南麓小徒
 github_username:      yanzhangcun
 facebook_username:    henry.h.jiang.5
 # jianshu_username:   e71990ada2fd
-# twitter_username:   qiubaiying
+twitter_username:   Yanzc
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
