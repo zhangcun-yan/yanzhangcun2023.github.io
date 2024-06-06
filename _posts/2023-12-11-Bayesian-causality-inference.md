@@ -113,6 +113,13 @@ tags:
 * [高斯过程案例](https://colab.research.google.com/drive/1vRizcpcAzJd_Xc9Xv3Ts30mgkokApF7E#scrollTo=KQJ1RpGAJIOJ)
 * [gaussian_process_case](https://github.com/borgwang/toys/blob/master/math-GP/gaussian_process.ipynb)
 * [高斯过程 Gaussian Processes 原理、可视化及代码实现](https://zhuanlan.zhihu.com/p/75589452)
+* [高斯过程课程笔记](https://www.cnblogs.com/rayinfos/p/17814095.html)
+* [2维高斯混合分布](https://geostatisticslessons.com/pdfs/gmm.pdf)
+* [EM算法--二维高斯混合模型(GMM)](https://blog.csdn.net/u011582757/article/details/70003351)
+* [高斯混合模型（GMM）及MATLAB代码](https://www.cnblogs.com/jins-note/p/11342498.html)
+* [GMM混合高斯模型算法详解](https://blog.csdn.net/qq_29462849/article/details/83926618)
+* [Gaussian Mixture Models 过程](https://www.kaggle.com/code/aszenx/gaussian-mixture-models)
+
 
 ## Dynamic bayesian
 *[Bayesian Velocity Models for Horse Race Simulation](https://www.kaggle.com/code/bkumagai/bayesian-velocity-models-for-horse-race-simulation/notebook)
