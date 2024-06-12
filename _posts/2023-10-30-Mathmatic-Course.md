@@ -33,3 +33,7 @@ Although I have been studying mathematics for twenty years, I have never really 
 
 ### Course in University of Washington
 * [Dynamic Mode](http://dmdbook.com/)
+
+
+### Data analysis
+* [Statistical Rethinking (2023 Edition)](https://github.com/rmcelreath/stat_rethinking_2023)[video](https://www.youtube.com/watch?v=qwF-st2NGTU)
