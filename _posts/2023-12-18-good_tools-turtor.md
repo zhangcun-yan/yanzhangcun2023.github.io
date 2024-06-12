@@ -64,3 +64,8 @@ So you need to change your repo config on your PC to ssh way:
 1. [How to use shap](https://blog.csdn.net/sinat_26917383/article/details/115400327)
 2. [Draw the figure of shap](https://blog.51cto.com/u_13544/8766623)
 3. [机器学习模型可解释性进行到底 —— SHAP值理论（一）](https://blog.csdn.net/sinat_26917383/article/details/115400327?spm=1001.2014.3001.5501)
+
+### Data analysis
+**Regression Models with Ordered Categorical Outcomes**
+1.[Regression Models with Ordered Categorical Outcomes](https://www.pymc.io/projects/examples/en/latest/generalized_linear_models/GLM-ordinal-regression.html)
+2.[pymc](https://github.com/pymc-devs)
